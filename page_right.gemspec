@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = PageRight::VERSION
   spec.authors       = ["Dave Collier"]
   spec.email         = ["lardelbow@gmail.com"]
-  spec.summary       = %q{Description}
-  spec.description   = %q{Same here}
-  spec.homepage      = ""
+  spec.summary       = 'A simple gem that helps you with testing the contents of a rendered web page'
+  spec.description   = 'A simple gem that helps you with testing the contents of a rendered web page. Currently in development.'
+  spec.homepage      = "https://github.com/lardelbow/page_right"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "minitest", "~> 5.4.3"
-  spec.add_development_dependency "pry"
-  spec.add_development_dependency "pry-doc"
+  spec.add_development_dependency "minitest", "~> 5.4"
+  spec.add_development_dependency "pry", "~> 0.10"
+  spec.add_development_dependency "pry-doc", "~> 0.6"
 end
