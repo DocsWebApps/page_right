@@ -1,6 +1,6 @@
 ## PageRight Gem - Checks the content of your rendered web pages. `Currently under development !!`
 
-Version 0.4 20th November 2014
+Version 0.4.1 20th November 2014
 
 A very simple gem that contains a few helper/wrapper methods utilising Capybara to aid testing the contents of a rendered web page when writing integration tests.
 
@@ -16,7 +16,7 @@ Include it in your Gemfile.
 gem 'page_right'
 ```
 
-Then require it in you `test_helper.rb` file.
+Then require it in your `test_helper.rb` file.
 
 ```ruby
 require 'page_right'
@@ -56,6 +56,7 @@ Check `This text` is within a class called `named-class`.
 
 ```ruby
 text_in_section('#named-id', 'Your text here', false)
+```
 
 Check `This text` is not within any id called `named-id`
 
