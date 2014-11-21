@@ -1,7 +1,12 @@
+0.5
+--------------------
+
+- Made the component libraies individually loadable via the test_help.rb file.
+
 0.4.1
 --------------------
 
-- Minor fix to README.md page
+- Minor fix to README.md page.
 
 0.4
 --------------------
