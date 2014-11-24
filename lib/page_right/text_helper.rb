@@ -1,6 +1,6 @@
-module ActiveSupport
-  class TestCase
-    # Check that the text 'content' is on the page, set flag to check that it isn't
+module PageRight
+	module TextHelper
+		# Check that the text 'content' is on the page, set flag to check that it isn't
     def text_in_page(content, flag=true)
       if flag
         assert page.has_content?("#{content}"), "Error: #{content} not found page !"
@@ -19,5 +19,5 @@ module ActiveSupport
         end
       end
     end
-  end
+	end
 end

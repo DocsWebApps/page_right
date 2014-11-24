@@ -1,6 +1,6 @@
-module ActiveSupport
-  class TestCase
-    # Check that a css element is on the page, set flag to check that it isn't
+module PageRight
+	module CssHelper
+		# Check that a css element is on the page, set flag to check that it isn't
     def css_in_page(css, flag=true)
       if flag
         assert page.has_css?("#{css}"), "Error: #{css} not found on page !"
@@ -19,5 +19,5 @@ module ActiveSupport
         end
       end
     end
-  end
+	end
 end

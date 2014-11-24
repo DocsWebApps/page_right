@@ -10,18 +10,10 @@ Semantic versioning is applied to this gem.
 
 ### Installation:
 
-Include it in your Gemfile.
+Include it in your Gemfile and the methods will be mixed in to ActiveSupport::TestCase.
 
 ```ruby
 gem 'page_right'
-```
-
-Then require one or more of the components your want to use in your `test_helper.rb` file. Currently the gem performs checks on text, css and images in your web pages.
-
-```ruby
-require 'page_right/text_checks'
-require 'page_right/css_checks'
-require 'page_right/image_checks'
 ```
 
 ### Method Descriptions:

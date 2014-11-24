@@ -1,4 +1,5 @@
-require "page_right/version"
+require 'page_right/version'
+require 'page_right/railtie'
 
 begin
 	require 'pry'

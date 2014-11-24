@@ -1,7 +1,7 @@
 0.5
 --------------------
 
-- Made the component libraies individually loadable via the test_help.rb file.
+- Made the component libraies individually loadable via a railtie. Added capybara depdendency.
 
 0.4.1
 --------------------
