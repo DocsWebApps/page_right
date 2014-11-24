@@ -1,10 +1,10 @@
 ## PageRight Gem - Checks the content of your rendered web pages. `Currently under development !!`
 
-Version 0.5 24th November 2014
+Version 0.5.2 24th November 2014
 
 A very simple gem that contains a few helper/wrapper methods utilising Capybara to aid testing the contents of a rendered web page when writing integration tests.
 
-It works with Test::Unit for now since this gem simply adds methods to ActiveSupport::TestCase, but I hope to develop it further to be used with RSpec and Cucumber.
+It works with Test::Unit for now since this gem simply mixes in methods to ActiveSupport::TestCase, but I hope to develop it further to be used with RSpec and Cucumber.
 
 Semantic versioning is applied to this gem.
 
