@@ -1,3 +1,8 @@
+0.5.1
+--------------------
+
+- Minor change to the CHANGELOG and the README.
+
 0.5
 --------------------
 

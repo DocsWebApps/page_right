@@ -1,6 +1,6 @@
 ## PageRight Gem - Checks the content of your rendered web pages. `Currently under development !!`
 
-Version 0.5 201st November 2014
+Version 0.5 24th November 2014
 
 A very simple gem that contains a few helper/wrapper methods utilising Capybara to aid testing the contents of a rendered web page when writing integration tests.
 
