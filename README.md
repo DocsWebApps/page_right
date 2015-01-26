@@ -89,7 +89,7 @@ is_css_in_section?('#my-css1', '.my-css2', false)
 
 Check the class `my-css2` is NOT nested within the id `my-css1`.
 
-### is_image_in_section?(section, image, count, flag=true)
+#### is_image_in_section?(section, image, count, flag=true)
 
 This method will check that the number of `image(s)` in the `section` is equal to `count`. If `flag=false` is set, then the method will check the number of `image(s)` in the `section` is not equal to `count`. If you just want to check that a particular `image` is in a particluar css selector `section` then pass in value of 1 for the `count` argument.
 
