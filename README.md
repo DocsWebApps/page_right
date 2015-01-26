@@ -108,7 +108,7 @@ is_image_in_section?('#my-css', 'my-image.jpg', 1, false)
 Check there is NOT a `my-image.jpg` image within an id `my-css`.
 
 ```ruby
-is_image_in_section?('#my-css', 'my-image.jpg', 3, false)
+is_image_in_section?('#my-css', 'my-image.jpg', 3)
 ```
 
 Check there are  3 `my-image.jpg` image's within an id `my-css`.
