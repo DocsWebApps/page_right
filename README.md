@@ -34,7 +34,7 @@ Checks `This text` is in the page.
 is_text_in_page?('Your text here', false)
 ```
 
-Check `This text` is NOT in the page.
+Check `Your text here` is NOT in the page.
 
 #### is_text_in_section?(section, content, flag=true)
 
@@ -52,7 +52,7 @@ Check `This text` is within a class called `named-class`.
 is_text_in_section?('#named-id', 'Your text here', false)
 ```
 
-Check `This text` is not within any id called `named-id`
+Check `Your text here` is not within any id called `named-id`
 
 #### is_css_in_page?(css, flag=true))
 
