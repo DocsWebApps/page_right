@@ -1,3 +1,8 @@
+0.6.0
+--------------------
+
+- Breaking change - change the method names to be more clearer 
+
 0.5.2
 --------------------
 
